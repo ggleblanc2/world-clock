@@ -52,6 +52,6 @@ The `JDialog` shows the list of all the time zones, the list of displayed time z
 
 The `TimezoneDialogListener` class copies the display list from the display `DefaultListModel` back to the application model class and updates the view.
 
-A Swing `Timer` updates the current time every 20 seconds.  This is accurate enough got a clock that displays hours and minutes.
+A Swing `Timer` updates the current time every 20 seconds.  This is accurate enough for a clock that displays hours and minutes.
 
-The rest of the `JButtons` on the `JDialog` trigger anonymous `ActionListeners` to perform their tasks.  Thes listeners are short, so it made sense to manke them anonymous classes.
+The rest of the `JButtons` on the `JDialog` trigger anonymous `ActionListeners` to perform their tasks.  The listeners are short, so it made sense to manke them anonymous classes.
